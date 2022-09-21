@@ -1,0 +1,15 @@
+.portfolio-header {
+    background-color: var(--portfolio-header);}
+.portfolio-header-list__after::after {
+    display: block;
+    content: "";
+    width: 78px;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;}
+.header-list-link.portfolio-header-list__after{
+    color: var(--accent-color);}   

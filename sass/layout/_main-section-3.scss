@@ -2,24 +2,32 @@
     background-color: var(--main-team);
     padding-bottom: 94px;
     padding-top: 94px;}
-.main-group-icon {
+.main-team__icon {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;}
-.main-team-foto {
+.main-team__foto {
     background-color: var(--main-team-foto);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;}
-.main-group-text {
+.main-team__text {
     padding: 30px;}
-.main-group-name {
+.main-team__name {
     margin-bottom: 10px;
     text-align: center;}
+.main-team__command {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin-bottom: 16px;}
 .social-list {
     display: flex;
     justify-content: center;
     column-gap: 10px;} 
-.social-list-link {
+.social-list__link {
     @extend %align;
     width: 44px;
     height: 44px;
@@ -28,11 +36,11 @@
  &:hover,
  &:focus {
         background-color:var(--accent-color);}}   
-.social-list-icon {
+.social-list__icon {
     width: 20px;
     height: 20px;
     fill: var(--social-customers);
     transition: fill var(--transition-dur-and-func);
-    .social-list-link:hover &,
-    .social-list-link:focus & {
+    .social-list__link:hover &,
+    .social-list__link:focus & {
         fill: #FFFFFF;}}

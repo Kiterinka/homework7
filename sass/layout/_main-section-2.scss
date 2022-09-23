@@ -1,31 +1,15 @@
-.main-images-box {
+.main-images {
     display: block;
     max-width: 100%;
     height: auto;
     padding-bottom: 94px;}
-.main-title-icon {
-    font-style: normal;
-    @include font(36px);
-    text-align: center;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-bottom: 50px;}
-.main-list-command {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--secondary-text-color);
-    margin-bottom: 16px;}
-.main-images {
+.main-images__box {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;}
-.main-images-foto-sense {
+.main-images__foto {
     position: relative;}        
-.main-images-description {
+.main-images__foto__description {
     width: 100%;
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
@@ -33,7 +17,7 @@
     position: absolute;
     bottom: 0;
     left: 0;} 
-.main-images-text {
+.main-images__foto__text {
     font-style: normal;
     @include font();
     line-height: 1.14;

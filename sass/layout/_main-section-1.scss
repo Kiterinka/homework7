@@ -1,20 +1,20 @@
-.main-description-box {
+.main-description {
     padding-top: 94px;}
-.card-list {
+.main-description__card {
     @extend %align;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;} 
-.card-list__icon {
+.main-description__icon {
     height: 70px;
     width: 70px;}        
-.main-description {
+.main-description__list {
     display: flex;
     gap: 30px;}
-.main-job-description { 
+.main-description__job { 
     width: 270px;}
-.main-title {
+.main-description__title {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-style: Bold;
@@ -22,7 +22,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);}
-.main-list {
+.main-description__subject{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;

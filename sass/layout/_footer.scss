@@ -1,19 +1,15 @@
-.footer-item {
+.footer{
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;}
 .footer-box {
     display: flex;
     align-items: baseline;}    
-.logo__light {
-    color: var(--logo-light);}
-.footer-style {
-    font-style: normal;}
-.footer-cont-display {
+.footer-table {
     display: flex;
     flex-direction: column;
     margin-bottom: 9px;}
-.footer-address {
+.footer-table__address {
     text-decoration: none;
     color: var(--footer-address);
     font-style: normal;
@@ -25,7 +21,7 @@
  &:hover,
  &:focus {
         color:var(--accent-color);}}
-.footer-contacts {
+.footer-table__contacts {
     text-decoration: none;
     color: var(--footer-contacts);
     font-style: normal;
@@ -40,18 +36,18 @@
     display: flex;
     flex-direction: column;
     margin-left: 70px;}    
-.footer-social-title {
+.footer-social__title {
     @include font();
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--footer-social-title);
     margin-bottom: 20px;}    
-.footer-social-list {
+.footer-social__list {
     display: flex;
     justify-content: center;
     column-gap: 10px;} 
-.footer-social-list-link {
+.footer-social__list_link {
     @extend %align;
     width: 44px;
     height: 44px;
@@ -61,7 +57,7 @@
  &:hover,
  &:focus {
         background-color:var(--accent-color);} }
-.footer-social-list-icon {
+.footer-social__list_icon {
     width: 20px;
     height: 20px;
     fill: #FFFFFF;}
@@ -69,7 +65,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 93px;}
-.footer-subscription-title {
+.footer-subscription__title {
     @include font();
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -77,11 +73,11 @@
     color:var(--footer-social-title);
     margin-bottom: 20px;
     display: flex;}
-.footer-subscription-form {
+.footer-subscription__form {
     display: flex;} 
-.footer-subscription-field {    
+.footer-subscription__form_field {    
     margin-right: 12px;}
-.footer-subscription-send {
+.footer-subscription__form_field_send {
     background-color: var(--title-background-color);
     display: flex;
     width: 358px;
@@ -116,7 +112,7 @@
  &:hover,
  &:focus {
         background-color: var(--button-hf);}}
-.footer-subscription-icon {
+.footer-subscription-button__icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;
